@@ -8,11 +8,11 @@ def cal():
 
 def test_add(cal):
 	cal.add(1,10)
-	assert cal.res == 9
+	assert cal.res == 11
 
 def test_div(cal):
-	cal.divide(1,9)
-	assert cal.res == 0.13
+	cal.divide(1,100)
+	assert cal.res == 0.01
 
 def test_raise(cal):
 	with pytest.raises(Error):
