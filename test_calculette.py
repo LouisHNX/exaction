@@ -7,8 +7,9 @@ def cal():
 
 
 def test_add(cal):
-	cal.add(1,10)
-	assert cal.res == 11
+	cal.add(1,2)
+	assert cal.res == 3
+
 
 def test_div(cal):
 	cal.divide(1,100)
